@@ -1,0 +1,11 @@
+name: Fisrt Work Flow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Print output
+      run: |
+        echo "Hello World!"
+        echo "Second output"
+        echo "Workflow completed"
