@@ -1,4 +1,4 @@
-name: Test cases
+name: Test case
 on: push
 jobs:
   test:
